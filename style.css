@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    font-family: "poppins";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d3cdcc;
+}
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    /* justyfi-content es para el eje X */
+    justify-content: center;
+    /* align-items es para el eje Y */
+    align-items: center;
+    /* height 100vh sirve para alinear todo al centro en la altura segun la pantalla */
+    height: 100vh;
+}
+
+.cookies{
+    width: 399px;
+    height: 432px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "varela round";
+    background-color: white;
+    color: rgb(172, 172, 172);
+}
+
+.parrafo1{
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn1{
+    border: none;
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ed6755;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px 0px #ed6755;
+    font-weight: bold;
+}
+
+.parrafo2{
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.btn2{
+    border: none;
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px 0px #2c3e50;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: #ec2309;
+    transform: scale(1.1);
+    transition: 1s;
+    color: black;
+}
+
+.btn2:hover{
+    background-color: #007bf7;
+    transform: scale3d(1.4, 4, 0.7);
+    transition: 1.5s;
+    color: black;
+}
