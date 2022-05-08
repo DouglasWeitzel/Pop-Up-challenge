@@ -98,7 +98,7 @@ body{
 
 .btn2:hover{
     background-color: #007bf7;
-    transform: scale(1.1);
+    transform: rotate(720deg);
     transition: 1.5s;
     color: black;
 }
